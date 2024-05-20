@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <section>
+        <div class="page">
+            <form method="POST" class="formLogin">
+                <fieldset>
+                    <legend><h1>Bem-vindo!</h1></legend>
+                    <p id="bem-vindo">É bom vê-lo novamente! Efetue seu login :) </p>
+                    <p id="error-message" class="error-message">Erro: Nome de usuário ou senha incorretos.</p>
+                    <div class="areas">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite seu e-mail" autofocus="true" required/>
+                    </div>
+                    <div class="areas">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" placeholder="Digite sua senha" required/>
+                    </div>
+                    <input type="submit" value="Acessar" class="btn" />
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
