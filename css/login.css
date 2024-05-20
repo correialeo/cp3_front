@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #cecece;
+}
+
+.formLogin fieldset{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 7px;
+    padding: 40px;
+    border:1px solid #fff;
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+#bem-vindo {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.error-message {
+    display: none; /* Esconde a mensagem de erro por padrão */
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #474546;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.areas{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #474546;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.btn:hover {
+    background-color: #8b8b8b;
+    transition: 0.5s;
+}
